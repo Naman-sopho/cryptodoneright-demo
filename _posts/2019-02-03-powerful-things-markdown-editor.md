@@ -1,12 +1,17 @@
 ---
 layout: post
-title:  "Powerful things you can do with the Markdown editor"
+title:  "AES"
 author: jane
-categories: [ Jekyll, tutorial ]
-image: https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
+categories: [ Symmetric Algorithms, tutorial ]
+image: https://miro.medium.com/max/755/1*4BDmgHbEkjYDUtEK-ntr6Q.png
 tags: [summer]
 ---
-There are lots of powerful things you can do with the Markdown editor. If you've gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!
+### Overview:
+Advanced Encryption Standard, or AES, is a symmetric encryption algorithm. AES is also a block cipher, encrypting data in 128-bit chunks. As there are no known vulnerabilities against the AES cipher, it is considered safe to use so long as a proper mode of operation is chosen and is correctly configured. AES is a common choice to replace obsolete algorithms such as DES. AES is considered a reasonably efficient algorithm in terms of speed and memory requirements and is also a federal government standard in United States as approved by Secretary of Commerce.
+
+Like most modern symmetric ciphers, AES is often used for “bulk encryption”, meaning the encryption and decryption of large amounts of data. Accordingly, AES is used in communication protocols such as TLS and IPSec for encrypting the network traffic, and is also found in file/folder/disk encryption applications as well.
+
+<!-- There are lots of powerful things you can do with the Markdown editor. If you've gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!
 
 As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.
 
@@ -45,4 +50,4 @@ Another way to insert links in markdown is using reference lists. You might want
 
 Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example:
 
-<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p> -->
