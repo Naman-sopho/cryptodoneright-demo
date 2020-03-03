@@ -2,7 +2,7 @@
 layout: post
 title:  "AES"
 author: jane
-categories: [ Symmetric Algorithms, tutorial ]
+categories: [ Symmetric_Algorithms, tutorial ]
 image: https://miro.medium.com/max/755/1*4BDmgHbEkjYDUtEK-ntr6Q.png
 tags: [summer]
 ---
