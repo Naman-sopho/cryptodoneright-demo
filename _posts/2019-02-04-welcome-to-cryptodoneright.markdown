@@ -3,6 +3,8 @@ layout: post
 title:  "Welcome to CryptoDoneRight!"
 categories: [ Jekyll ]
 image: assets/images/demo1.jpg
+author: false
+comments: false
 ---
 To unlock the power of cryptography for the non-cryptographer.
 
