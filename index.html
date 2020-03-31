@@ -11,11 +11,20 @@ description: "A one-stop solution for everything crypto."
     
 {% if page.url == "/" %}
     
-    
-    
+<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem position-relative">
+    <div class="row justify-content-between">
+        <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
+            
+        </div>
+        <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
+            <form class="bd-search hidden-sm-down" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+                <input type="text" class="form-control text-small"  id="lunrsearch" name="q" value="" placeholder="Type keyword and enter..."> 
+            </form>
+        </div>
+    </div>
+</div>
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 <div class="row remove-site-content-margin">
-    
     <!-- latest post -->
     {% assign latest_post = site.posts[0] %}
     <div class="col-md-6">
