@@ -87,9 +87,26 @@ a.text-dark:hover {
 	line-height:1.6;
 	border-radius:0.25rem;
 	position:relative;
+
+	-webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+            transform: translateZ(0);
+    
+    -webkit-transition: all 0.2s ease;
+       -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+            transition: all 0.2s ease;
 }
 .btn:hover,.btn:focus {
 	outline:0 !important;
+	top: -5px;
+    box-shadow: 0px 10px 10px rgba( 22, 230, 137, 1 );
+    
+    -webkit-transform: rotateX(20deg);
+       -moz-transform: rotateX(20deg);
+        -ms-transform: rotateX(20deg);
+            transform: rotateX(20deg);
 }
 .btn .badge {
 	position:absolute;
